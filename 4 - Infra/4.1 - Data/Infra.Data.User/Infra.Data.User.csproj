@@ -22,11 +22,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\2 - Domain\UserDomain\UserDomain.csproj" />
+    <Folder Include="Repositoty\" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Repositoty\" />
+    <ProjectReference Include="..\..\..\2 - Domain\UserDomain\UserDomain.csproj" />
   </ItemGroup>
 
 </Project>

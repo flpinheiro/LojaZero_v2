@@ -1,0 +1,4 @@
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\3 - Service\Service\bin\Debug\netcoreapp3.0\Service.deps.json
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\3 - Service\Service\bin\Debug\netcoreapp3.0\Service.dll
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\3 - Service\Service\obj\Debug\netcoreapp3.0\Service.AssemblyInfoInputs.cache
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\3 - Service\Service\obj\Debug\netcoreapp3.0\Service.AssemblyInfo.cs

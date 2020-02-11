@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\Infra.Data.User\\Infra.Data.User.csproj": {}
+    "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.Data.User.csproj": {}
   },
   "projects": {
     "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\UserDomain.csproj": {
@@ -70,14 +70,14 @@
         }
       }
     },
-    "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\Infra.Data.User\\Infra.Data.User.csproj": {
+    "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.Data.User.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\Infra.Data.User\\Infra.Data.User.csproj",
+        "projectUniqueName": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.Data.User.csproj",
         "projectName": "LojaZero.Infra.Data.User",
-        "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\Infra.Data.User\\Infra.Data.User.csproj",
+        "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.Data.User.csproj",
         "packagesPath": "C:\\Users\\Basis Tecnologia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\Infra.Data.User\\obj\\",
+        "outputPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
