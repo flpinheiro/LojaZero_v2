@@ -1,0 +1,5 @@
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\2 - Domain\UserDomain\bin\Debug\netcoreapp3.0\LojaZero.UserDomain.deps.json
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\2 - Domain\UserDomain\bin\Debug\netcoreapp3.0\LojaZero.UserDomain.dll
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\2 - Domain\UserDomain\obj\Debug\netcoreapp3.0\UserDomain.csprojAssemblyReference.cache
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\2 - Domain\UserDomain\obj\Debug\netcoreapp3.0\UserDomain.AssemblyInfoInputs.cache
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\2 - Domain\UserDomain\obj\Debug\netcoreapp3.0\UserDomain.AssemblyInfo.cs

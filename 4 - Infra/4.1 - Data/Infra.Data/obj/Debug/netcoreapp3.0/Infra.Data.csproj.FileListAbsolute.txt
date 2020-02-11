@@ -1,0 +1,11 @@
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\bin\Debug\netcoreapp3.0\Infra.Data.deps.json
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\bin\Debug\netcoreapp3.0\Infra.Data.dll
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\obj\Debug\netcoreapp3.0\Infra.Data.csprojAssemblyReference.cache
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\obj\Debug\netcoreapp3.0\Infra.Data.AssemblyInfoInputs.cache
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\obj\Debug\netcoreapp3.0\Infra.Data.AssemblyInfo.cs
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\bin\Debug\netcoreapp3.0\Infra.Data.runtimeconfig.json
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\bin\Debug\netcoreapp3.0\Infra.Data.runtimeconfig.dev.json
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.deps.json
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.runtimeconfig.json
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.runtimeconfig.dev.json
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.dll
