@@ -6,9 +6,9 @@ namespace LojaZero.Domain.Interface
 {
     public interface IService<T> where T : BaseEntity
     {
-        T Post<V>(T obj) where V : AbstractValidator<T>;
+        T Post<TV>(T obj) where TV : AbstractValidator<T>;
 
-        T Put<V>(T obj) where V : AbstractValidator<T>;
+        T Put<TV>(T obj) where TV : AbstractValidator<T>;
 
         void Delete(int id);
 

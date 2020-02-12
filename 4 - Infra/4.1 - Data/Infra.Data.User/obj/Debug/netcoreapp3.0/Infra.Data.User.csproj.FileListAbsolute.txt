@@ -6,3 +6,16 @@ C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\Infra.Data.User\obj\Debug\net
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\Infra.Data.User\bin\Debug\netcoreapp3.0\Infra.Data.User.runtimeconfig.json
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\Infra.Data.User\bin\Debug\netcoreapp3.0\Infra.Data.User.runtimeconfig.dev.json
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\Infra.Data.User\bin\Debug\netcoreapp3.0\LojaZero.UserDomain.dll
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data.User\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.User.deps.json
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data.User\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.User.runtimeconfig.json
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data.User\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.User.runtimeconfig.dev.json
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data.User\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.User.dll
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data.User\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.User.pdb
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data.User\bin\Debug\netcoreapp3.0\LojaZero.UserDomain.dll
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data.User\bin\Debug\netcoreapp3.0\LojaZero.UserDomain.pdb
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data.User\obj\Debug\netcoreapp3.0\Infra.Data.User.csprojAssemblyReference.cache
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data.User\obj\Debug\netcoreapp3.0\Infra.Data.User.AssemblyInfoInputs.cache
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data.User\obj\Debug\netcoreapp3.0\Infra.Data.User.AssemblyInfo.cs
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data.User\obj\Debug\netcoreapp3.0\Infra.Data.User.csproj.CopyComplete
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data.User\obj\Debug\netcoreapp3.0\LojaZero.Infra.Data.User.dll
+C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data.User\obj\Debug\netcoreapp3.0\LojaZero.Infra.Data.User.pdb

@@ -10,34 +10,34 @@ namespace LojaZero.Infra.Data.Repository
 {
     public class BaseRepository<T> : IRepository<T> where T : BaseEntity
     {
-        private DomainDbContext context = new DomainDbContext();
+        private readonly DomainDbContext _context = new DomainDbContext();
 
         public void Insert(T obj)
         {
-            context.Set<T>().Add(obj);
-            context.SaveChanges();
+            _context.Set<T>().Add(obj);
+            _context.SaveChanges();
         }
 
         public void Update(T obj)
         {
-            context.Entry(obj).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
-            context.SaveChanges();
+            _context.Entry(obj).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            _context.SaveChanges();
         }
 
         public void Delete(int id)
         {
-            context.Set<T>().Remove(SelectById(id));
-            context.SaveChanges();
+            _context.Set<T>().Remove(SelectById(id));
+            _context.SaveChanges();
         }
 
         public IList<T> Select()
         {
-            return context.Set<T>().ToList();
+            return _context.Set<T>().ToList();
         }
 
         public T SelectById(int id)
         {
-            return context.Set<T>().Find(id);
+            return _context.Set<T>().Find(id);
         }
     }
 }

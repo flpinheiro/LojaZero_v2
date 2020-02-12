@@ -1,15 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using LojaZero.UserDomain.Interface;
+using System;
+using System.ComponentModel.DataAnnotations.Schema;
+using LojaZero.UserDomain.Enum;
 
 namespace LojaZero.UserDomain.Entity
 {
-    public class Person : IdentityUser
+    public class Person : AppUser, IAppUser
     {
+        public string CPF { get; set; }
         public DateTime BirthDay { get; set; }
         public string FirstName { get; set; }
-        public string LasttName { get; set; }
-        public ICollection<Address> Addresses { get; set; }
-        public ICollection<Phone> Phones { get; set; }
+        public string LastName { get; set; }
+        public Gender Gender { get; set; }
+        [NotMapped]
+        public bool Wholesale => false;
     }
 }

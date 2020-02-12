@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v3.0": {
-      "Service/1.0.0": {
+      "LojaZero.CrossCutting/1.0.0": {
         "runtime": {
-          "Service.dll": {}
+          "LojaZero.CrossCutting.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Service/1.0.0": {
+    "LojaZero.CrossCutting/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

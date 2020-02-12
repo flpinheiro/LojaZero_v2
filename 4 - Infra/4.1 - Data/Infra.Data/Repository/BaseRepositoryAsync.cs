@@ -12,33 +12,33 @@ namespace LojaZero.Infra.Data.Repository
 {
     public class BaseRepositoryAsync<T> : IRepositoryAsync<T> where T : BaseEntity
     {
-        private DomainDbContext context = new DomainDbContext();
+        private readonly DomainDbContext _context = new DomainDbContext();
         public async Task InsertAsync(T obj)
         {
-            await context.Set<T>().AddAsync(obj);
-            await context.SaveChangesAsync();
+            await _context.Set<T>().AddAsync(obj);
+            await _context.SaveChangesAsync();
         }
 
         public async Task UpdateAsync(T obj)
         {
-            context.Entry(obj).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
-            await context.SaveChangesAsync();
+            _context.Entry(obj).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            await _context.SaveChangesAsync();
         }
 
         public async Task DeleteAsync(int id)
         {
-            context.Set<T>().Remove(SelectByIdAsync(id).Result);
-            await context.SaveChangesAsync();
+            _context.Set<T>().Remove(SelectByIdAsync(id).Result);
+            await _context.SaveChangesAsync();
         }
 
         public async Task<T> SelectByIdAsync(int id)
         {
-            return await context.Set<T>().FindAsync(id);
+            return await _context.Set<T>().FindAsync(id);
         }
 
         public async Task<IList<T>> SelectAsync()
         {
-            return await context.Set<T>().ToListAsync();
+            return await _context.Set<T>().ToListAsync();
         }
     }
 }

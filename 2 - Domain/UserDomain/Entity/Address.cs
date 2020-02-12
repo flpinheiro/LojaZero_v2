@@ -2,8 +2,8 @@
 {
     public class Address
     {
-        public string PersonId { get; set; }
-        public Person Person { get; set; }
+        public string AppUserId { get; set; }
+        public AppUser AppUser { get; set; }
         public string ZipCode { get; set; }
         public int Number { get; set; }
         public string Street { get; set; }
