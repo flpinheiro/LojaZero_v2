@@ -1,45 +1,54 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using LojaZero.Domain.Entity;
+using LojaZero.Domain.Interface;
+using LojaZero.Service.Service;
+using LojaZero.UserDomain.Entity;
+using LojaZero.UserDomain.Interface;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
+using Serilog;
 
 namespace WebApplication
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration, ILoggerFactory loggerFactory)
+        public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
-            _loggerFactory = loggerFactory;
+           // _loggerFactory = loggerFactory;
         }
 
-        private readonly ILoggerFactory _loggerFactory;
+        //private readonly ILoggerFactory _loggerFactory;
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddLogging(loggingBuilder => loggingBuilder.AddSerilog(dispose: true));
+            services.AddLogging(loggingBuilder => loggingBuilder.AddSerilog(dispose: true));
             services.AddMvc();
             services.AddDistributedMemoryCache();
             services.AddSession();
+
+            #region Dependence Injection
+
+            //services.AddTransient<IServiceAsync<BaseEntity>, BaseService<BaseEntity>>();
+            //services.AddTransient<IServiceUserAsync<AppUser>, IServiceUserAsync<AppUser>>();
+            //services.AddTransient<IAppUser, Person>();
+            //services.AddTransient<IAppUser, Company>();
+
+            #endregion
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            _loggerFactory.AddSerilog();
+            //_loggerFactory.AddSerilog();
             if (env.IsDevelopment())
             {
-                //app.UseBrowserLink();
+                app.UseBrowserLink();
                 app.UseDeveloperExceptionPage();
             }
             else
@@ -54,6 +63,7 @@ namespace WebApplication
             app.UseRouting();
 
             app.UseAuthorization();
+            app.UseAuthentication();
 
             app.UseEndpoints(endpoints =>
             {
