@@ -9560,8 +9560,8 @@
     },
     "LojaZero.Infra.Data.User/1.0.0": {
       "type": "project",
-      "path": "../../4 - Infra/4.1 - Data/Infra.Data.User/Infra.Data.User.csproj",
-      "msbuildProject": "../../4 - Infra/4.1 - Data/Infra.Data.User/Infra.Data.User.csproj"
+      "path": "../../4 - Infra/4.1 - Data/Infra.Data.User/Infra.DataUser.csproj",
+      "msbuildProject": "../../4 - Infra/4.1 - Data/Infra.Data.User/Infra.DataUser.csproj"
     },
     "LojaZero.Service/1.0.0": {
       "type": "project",
@@ -9570,8 +9570,8 @@
     },
     "LojaZero.UserDomain/1.0.0": {
       "type": "project",
-      "path": "../../2 - Domain/UserDomain/UserDomain.csproj",
-      "msbuildProject": "../../2 - Domain/UserDomain/UserDomain.csproj"
+      "path": "../../2 - Domain/UserDomain/DomainUser.csproj",
+      "msbuildProject": "../../2 - Domain/UserDomain/DomainUser.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -9626,14 +9626,14 @@
             "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\Domain\\Domain.csproj": {
               "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\UserDomain.csproj": {
-              "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\UserDomain.csproj"
+            "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj": {
+              "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj"
             },
             "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\3 - Service\\Service\\Service.csproj": {
               "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\3 - Service\\Service\\Service.csproj"
             },
-            "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.Data.User.csproj": {
-              "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.Data.User.csproj"
+            "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.DataUser.csproj": {
+              "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.DataUser.csproj"
             },
             "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data\\Infra.Data.csproj": {
               "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data\\Infra.Data.csproj"

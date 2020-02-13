@@ -1,8 +1,8 @@
 ﻿@using LojaZero.UserDomain.Entity
 @using Microsoft.AspNetCore.Identity
 
-@inject SignInManager<AppUser> SignInManager
-@inject UserManager<AppUser> UserManager
+@inject SignInManager<AppIdentityUser> SignInManager
+@inject UserManager<AppIdentityUser> UserManager
 
 <ul class="navbar-nav">
 @if (SignInManager.IsSignedIn(User))

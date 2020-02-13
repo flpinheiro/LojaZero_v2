@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\2 - Domain\UserDomain\UserDomain.csproj" />
+    <ProjectReference Include="..\..\..\2 - Domain\UserDomain\DomainUser.csproj" />
   </ItemGroup>
 
 </Project>

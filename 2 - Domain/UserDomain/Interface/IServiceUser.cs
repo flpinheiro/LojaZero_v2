@@ -4,7 +4,7 @@ using System.Collections.Generic;
 
 namespace LojaZero.Domain.Interface
 {
-    public interface IServiceUser<T> where T : AppUser
+    public interface IServiceUser<T> where T : AppIdentityUser
     {
         T Post<V>(T obj) where V : AbstractValidator<T>;
 

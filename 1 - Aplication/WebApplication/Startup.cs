@@ -34,7 +34,7 @@ namespace WebApplication
             #region Dependence Injection
 
             //services.AddTransient<IServiceAsync<BaseEntity>, BaseService<BaseEntity>>();
-            //services.AddTransient<IServiceUserAsync<AppUser>, IServiceUserAsync<AppUser>>();
+            //services.AddTransient<IServiceUserAsync<AppIdentityUser>, IServiceUserAsync<AppIdentityUser>>();
             //services.AddTransient<IAppUser, Person>();
             //services.AddTransient<IAppUser, Company>();
 

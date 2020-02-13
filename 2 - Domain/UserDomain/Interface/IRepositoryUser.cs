@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace LojaZero.Domain.Interface
 {
-    public interface IRepositoryUser<T> where T : AppUser
+    public interface IRepositoryUser<T> where T : AppIdentityUser
     {
         void Insert(T obj);
 

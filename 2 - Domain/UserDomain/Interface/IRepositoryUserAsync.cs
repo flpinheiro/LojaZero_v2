@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace LojaZero.Domain.Interface
 {
-    public interface IRepositoryUserAsync<T> where T : AppUser
+    public interface IRepositoryUserAsync<T> where T : AppIdentityUser
     {
         Task InsertAsync(T obj);
 

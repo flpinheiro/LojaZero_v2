@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace LojaZero.Infra.Data.User.Migrations
 {
-    [DbContext(typeof(UserDbContext))]
+    [DbContext(typeof(AppIdentityDbContext))]
     partial class UserDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)
@@ -54,7 +54,7 @@ namespace LojaZero.Infra.Data.User.Migrations
                     b.ToTable("address");
                 });
 
-            modelBuilder.Entity("LojaZero.UserDomain.Entity.AppUser", b =>
+            modelBuilder.Entity("LojaZero.UserDomain.Entity.AppIdentityUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -122,7 +122,7 @@ namespace LojaZero.Infra.Data.User.Migrations
 
                     b.ToTable("AspNetUsers");
 
-                    b.HasDiscriminator<string>("Discriminator").HasValue("AppUser");
+                    b.HasDiscriminator<string>("Discriminator").HasValue("AppIdentityUser");
                 });
 
             modelBuilder.Entity("LojaZero.UserDomain.Entity.Phone", b =>
@@ -287,7 +287,7 @@ namespace LojaZero.Infra.Data.User.Migrations
 
             modelBuilder.Entity("LojaZero.UserDomain.Entity.Company", b =>
                 {
-                    b.HasBaseType("LojaZero.UserDomain.Entity.AppUser");
+                    b.HasBaseType("LojaZero.UserDomain.Entity.AppIdentityUser");
 
                     b.Property<string>("CNPJ")
                         .IsRequired()
@@ -305,7 +305,7 @@ namespace LojaZero.Infra.Data.User.Migrations
 
             modelBuilder.Entity("LojaZero.UserDomain.Entity.Person", b =>
                 {
-                    b.HasBaseType("LojaZero.UserDomain.Entity.AppUser");
+                    b.HasBaseType("LojaZero.UserDomain.Entity.AppIdentityUser");
 
                     b.Property<DateTime>("BirthDay")
                         .HasColumnName("birth_day")
@@ -335,7 +335,7 @@ namespace LojaZero.Infra.Data.User.Migrations
 
             modelBuilder.Entity("LojaZero.UserDomain.Entity.Address", b =>
                 {
-                    b.HasOne("LojaZero.UserDomain.Entity.AppUser", "AppUser")
+                    b.HasOne("LojaZero.UserDomain.Entity.AppIdentityUser", "AppIdentityUser")
                         .WithMany("Addresses")
                         .HasForeignKey("AppUserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -344,7 +344,7 @@ namespace LojaZero.Infra.Data.User.Migrations
 
             modelBuilder.Entity("LojaZero.UserDomain.Entity.Phone", b =>
                 {
-                    b.HasOne("LojaZero.UserDomain.Entity.AppUser", "AppUser")
+                    b.HasOne("LojaZero.UserDomain.Entity.AppIdentityUser", "AppIdentityUser")
                         .WithMany("Phones")
                         .HasForeignKey("AppUserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -362,7 +362,7 @@ namespace LojaZero.Infra.Data.User.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("LojaZero.UserDomain.Entity.AppUser", null)
+                    b.HasOne("LojaZero.UserDomain.Entity.AppIdentityUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -371,7 +371,7 @@ namespace LojaZero.Infra.Data.User.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("LojaZero.UserDomain.Entity.AppUser", null)
+                    b.HasOne("LojaZero.UserDomain.Entity.AppIdentityUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -386,7 +386,7 @@ namespace LojaZero.Infra.Data.User.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("LojaZero.UserDomain.Entity.AppUser", null)
+                    b.HasOne("LojaZero.UserDomain.Entity.AppIdentityUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -395,7 +395,7 @@ namespace LojaZero.Infra.Data.User.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("LojaZero.UserDomain.Entity.AppUser", null)
+                    b.HasOne("LojaZero.UserDomain.Entity.AppIdentityUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)

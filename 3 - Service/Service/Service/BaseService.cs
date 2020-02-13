@@ -53,7 +53,7 @@ namespace LojaZero.Service.Service
         protected void Validate(T obj, AbstractValidator<T> validator)
         {
             if (obj == null)
-                throw new Exception("Registros não detectados!");
+                throw new System.Exception("Registros não detectados!");
 
             validator.ValidateAndThrow(obj);
         }

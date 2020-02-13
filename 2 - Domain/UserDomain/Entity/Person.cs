@@ -5,7 +5,7 @@ using LojaZero.UserDomain.Enum;
 
 namespace LojaZero.UserDomain.Entity
 {
-    public class Person : AppUser, IAppUser
+    public class Person : AppIdentityUser, IAppUser
     {
         public string CPF { get; set; }
         public DateTime BirthDay { get; set; }

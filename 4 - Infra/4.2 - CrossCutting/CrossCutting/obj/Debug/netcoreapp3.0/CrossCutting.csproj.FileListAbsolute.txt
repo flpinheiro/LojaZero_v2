@@ -5,4 +5,3 @@ C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.2 - CrossCutting\
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.2 - CrossCutting\CrossCutting\obj\Debug\netcoreapp3.0\CrossCutting.AssemblyInfo.cs
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.2 - CrossCutting\CrossCutting\obj\Debug\netcoreapp3.0\LojaZero.CrossCutting.dll
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.2 - CrossCutting\CrossCutting\obj\Debug\netcoreapp3.0\LojaZero.CrossCutting.pdb
-C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.2 - CrossCutting\CrossCutting\obj\Debug\netcoreapp3.0\CrossCutting.csprojAssemblyReference.cache

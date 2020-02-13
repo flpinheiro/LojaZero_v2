@@ -14,8 +14,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\2 - Domain\Domain\Domain.csproj" />
-    <ProjectReference Include="..\..\2 - Domain\UserDomain\UserDomain.csproj" />
-    <ProjectReference Include="..\..\4 - Infra\4.1 - Data\Infra.Data.User\Infra.Data.User.csproj" />
+    <ProjectReference Include="..\..\2 - Domain\UserDomain\DomainUser.csproj" />
+    <ProjectReference Include="..\..\4 - Infra\4.1 - Data\Infra.Data.User\Infra.DataUser.csproj" />
     <ProjectReference Include="..\..\4 - Infra\4.1 - Data\Infra.Data\Infra.Data.csproj" />
     <ProjectReference Include="..\..\4 - Infra\4.2 - CrossCutting\CrossCutting\CrossCutting.csproj" />
   </ItemGroup>

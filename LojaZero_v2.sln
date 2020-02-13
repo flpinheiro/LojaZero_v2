@@ -9,7 +9,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "2 - Domain\Domain\Domain.csproj", "{C7193911-ED7F-48D2-840B-670406D6FFA3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UserDomain", "2 - Domain\UserDomain\UserDomain.csproj", "{3809416A-5C35-4D9F-9189-720BD554B144}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DomainUser", "2 - Domain\UserDomain\DomainUser.csproj", "{3809416A-5C35-4D9F-9189-720BD554B144}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Service", "3 - Service", "{F2BB5BEE-503B-4EB2-80A4-FB2A52D3F515}"
 EndProject
@@ -21,13 +21,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - CrossCutting", "4.2 -
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Data", "4 - Infra\4.1 - Data\Infra.Data\Infra.Data.csproj", "{D428D7B3-96D0-44B2-804B-CF33055439EC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.Data.User", "4 - Infra\4.1 - Data\Infra.Data.User\Infra.Data.User.csproj", "{B1D6A212-F73C-4A4B-BC62-C85F66EF69BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infra.DataUser", "4 - Infra\4.1 - Data\Infra.Data.User\Infra.DataUser.csproj", "{B1D6A212-F73C-4A4B-BC62-C85F66EF69BD}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Service", "3 - Service\Service\Service.csproj", "{1A7B25F3-8DA1-4845-94A4-A59CD0D49D81}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CrossCutting", "4 - Infra\4.2 - CrossCutting\CrossCutting\CrossCutting.csproj", "{906B78A3-CDC2-4EE0-8FCE-9E1475243640}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication", "1 - Aplication\WebApplication\WebApplication.csproj", "{777D32CC-53B6-4BAF-9E5D-403A67FCF90E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication", "1 - Aplication\WebApplication\WebApplication.csproj", "{777D32CC-53B6-4BAF-9E5D-403A67FCF90E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

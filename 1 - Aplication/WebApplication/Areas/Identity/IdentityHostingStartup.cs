@@ -13,12 +13,12 @@ namespace WebApplication.Areas.Identity
         public void Configure(IWebHostBuilder builder)
         {
             builder.ConfigureServices((context, services) => {
-                services.AddDbContext<UserDbContext>(options =>
+                services.AddDbContext<AppIdentityDbContext>(options =>
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("WebApplicationContextConnection")));
 
-                services.AddDefaultIdentity<AppUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                    .AddEntityFrameworkStores<UserDbContext>();
+                services.AddDefaultIdentity<AppIdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+                    .AddEntityFrameworkStores<AppIdentityDbContext>();
             });
         }
     }

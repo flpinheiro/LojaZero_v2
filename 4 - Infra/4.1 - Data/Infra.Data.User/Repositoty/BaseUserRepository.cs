@@ -6,9 +6,9 @@ using LojaZero.UserDomain.Entity;
 
 namespace LojaZero.Infra.Data.User.Repositoty
 {
-    public class BaseUserRepository<T> : IRepositoryUser<T> where T : AppUser
+    public class BaseUserRepository<T> : IRepositoryUser<T> where T : AppIdentityUser
     {
-        private readonly UserDbContext _context = new UserDbContext();
+        private readonly AppIdentityDbContext _context = new AppIdentityDbContext();
         public void Insert(T obj)
         {
             _context.Set<T>().Add(obj);

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace LojaZero.Domain.Interface
 {
-    public interface IServiceUserAsync<T> where T : AppUser
+    public interface IServiceUserAsync<T> where T : AppIdentityUser
     {
         T Post<TV>(T obj) where TV : AbstractValidator<T>;
 

@@ -7,7 +7,7 @@ using LojaZero.UserDomain.Entity;
 
 namespace LojaZero.Service.Service
 {
-    public class BaseUserService<T> : IServiceUserAsync<T> where T: AppUser
+    public class BaseUserService<T> : IServiceUserAsync<T> where T: AppIdentityUser
     {
         private readonly IRepositoryUserAsync<T> _repository;
 
@@ -52,7 +52,7 @@ namespace LojaZero.Service.Service
         protected void Validate(T obj, AbstractValidator<T> validator)
         {
             if (obj == null)
-                throw new Exception("Registros não detectados!");
+                throw new System.Exception("Registros não detectados!");
 
             validator.ValidateAndThrow(obj);
         }

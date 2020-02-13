@@ -1891,9 +1891,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\UserDomain.csproj",
+      "projectUniqueName": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj",
       "projectName": "LojaZero.UserDomain",
-      "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\UserDomain.csproj",
+      "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj",
       "packagesPath": "C:\\Users\\Basis Tecnologia\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\obj\\",
       "projectStyle": "PackageReference",

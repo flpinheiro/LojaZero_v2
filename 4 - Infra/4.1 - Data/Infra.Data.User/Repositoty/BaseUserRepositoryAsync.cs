@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace LojaZero.Infra.Data.User.Repositoty
 {
-    public class BaseUserRepositoryAsync<T> : IRepositoryUserAsync<T> where T : AppUser
+    public class BaseUserRepositoryAsync<T> : IRepositoryUserAsync<T> where T : AppIdentityUser
     {
-        private readonly UserDbContext context = new UserDbContext();
+        private readonly AppIdentityDbContext context = new AppIdentityDbContext();
         public async Task InsertAsync(T obj)
         {
             await context.Set<T>().AddAsync(obj);

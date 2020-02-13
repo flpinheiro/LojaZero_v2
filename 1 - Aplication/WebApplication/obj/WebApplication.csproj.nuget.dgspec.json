@@ -34,14 +34,14 @@
               "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\UserDomain.csproj": {
-                "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\UserDomain.csproj"
+              "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj": {
+                "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj"
               },
               "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\3 - Service\\Service\\Service.csproj": {
                 "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\3 - Service\\Service\\Service.csproj"
               },
-              "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.Data.User.csproj": {
-                "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.Data.User.csproj"
+              "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.DataUser.csproj": {
+                "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.DataUser.csproj"
               },
               "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data\\Infra.Data.csproj": {
                 "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data\\Infra.Data.csproj"
@@ -183,12 +183,12 @@
         }
       }
     },
-    "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\UserDomain.csproj": {
+    "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\UserDomain.csproj",
+        "projectUniqueName": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj",
         "projectName": "LojaZero.UserDomain",
-        "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\UserDomain.csproj",
+        "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj",
         "packagesPath": "C:\\Users\\Basis Tecnologia\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\obj\\",
         "projectStyle": "PackageReference",
@@ -283,11 +283,11 @@
               "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\Domain\\Domain.csproj": {
                 "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\UserDomain.csproj": {
-                "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\UserDomain.csproj"
+              "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj": {
+                "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj"
               },
-              "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.Data.User.csproj": {
-                "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.Data.User.csproj"
+              "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.DataUser.csproj": {
+                "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.DataUser.csproj"
               },
               "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data\\Infra.Data.csproj": {
                 "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data\\Infra.Data.csproj"
@@ -342,12 +342,12 @@
         }
       }
     },
-    "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.Data.User.csproj": {
+    "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.DataUser.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.Data.User.csproj",
+        "projectUniqueName": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.DataUser.csproj",
         "projectName": "LojaZero.Infra.Data.User",
-        "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.Data.User.csproj",
+        "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.DataUser.csproj",
         "packagesPath": "C:\\Users\\Basis Tecnologia\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\obj\\",
         "projectStyle": "PackageReference",
@@ -369,8 +369,8 @@
         "frameworks": {
           "netcoreapp3.0": {
             "projectReferences": {
-              "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\UserDomain.csproj": {
-                "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\UserDomain.csproj"
+              "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj": {
+                "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj"
               }
             }
           }

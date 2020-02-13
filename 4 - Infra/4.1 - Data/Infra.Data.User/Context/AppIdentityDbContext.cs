@@ -8,13 +8,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LojaZero.Infra.Data.User.Context
 {
-    public class UserDbContext : IdentityDbContext<AppUser>
+    public class AppIdentityDbContext : IdentityDbContext<AppIdentityUser>
     {
-        public UserDbContext()
+        public AppIdentityDbContext()
         {
         }
 
-        public UserDbContext(DbContextOptions<UserDbContext> options)
+        public AppIdentityDbContext(DbContextOptions<AppIdentityDbContext> options)
             : base(options)
         {
         }
@@ -30,7 +30,7 @@ namespace LojaZero.Infra.Data.User.Context
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
-            builder.Entity<AppUser>(new AppUserMap().Configure);
+            builder.Entity<AppIdentityUser>(new AppUserMap().Configure);
             builder.Entity<Person>(new PersonMap().Configure);
             builder.Entity<Company>(new CompanyMap().Configure);
             builder.Entity<Address>(new AddrassMap().Configure);
