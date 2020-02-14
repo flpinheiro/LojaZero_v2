@@ -11,3 +11,16 @@ C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Da
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\obj\Debug\netcoreapp3.0\Infra.Data.csproj.CopyComplete
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\obj\Debug\netcoreapp3.0\LojaZero.Infra.Data.dll
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\obj\Debug\netcoreapp3.0\LojaZero.Infra.Data.pdb
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.deps.json
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.runtimeconfig.json
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.runtimeconfig.dev.json
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.dll
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.pdb
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\bin\Debug\netcoreapp3.0\LojaZero.Domain.dll
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\bin\Debug\netcoreapp3.0\LojaZero.Domain.pdb
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\obj\Debug\netcoreapp3.0\Infra.Data.csprojAssemblyReference.cache
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\obj\Debug\netcoreapp3.0\Infra.Data.AssemblyInfoInputs.cache
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\obj\Debug\netcoreapp3.0\Infra.Data.AssemblyInfo.cs
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\obj\Debug\netcoreapp3.0\Infra.Data.csproj.CopyComplete
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\obj\Debug\netcoreapp3.0\LojaZero.Infra.Data.dll
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.1 - Data\Infra.Data\obj\Debug\netcoreapp3.0\LojaZero.Infra.Data.pdb

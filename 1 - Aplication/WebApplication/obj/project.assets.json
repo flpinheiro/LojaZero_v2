@@ -3064,10 +3064,7 @@
         },
         "runtime": {
           "bin/placeholder/LojaZero.Domain.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "LojaZero.Infra.Data/1.0.0": {
         "type": "project",
@@ -3082,10 +3079,7 @@
         },
         "runtime": {
           "bin/placeholder/LojaZero.Infra.Data.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "LojaZero.Infra.Data.User/1.0.0": {
         "type": "project",
@@ -3123,10 +3117,7 @@
         },
         "runtime": {
           "bin/placeholder/LojaZero.Service.dll": {}
-        },
-        "frameworkReferences": [
-          "Microsoft.AspNetCore.App"
-        ]
+        }
       },
       "LojaZero.UserDomain/1.0.0": {
         "type": "project",
@@ -9593,53 +9584,53 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Basis Tecnologia\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\flpin\\.nuget\\packages\\": {},
+    "D:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\1 - Aplication\\WebApplication\\WebApplication.csproj",
+      "projectUniqueName": "D:\\flpin\\SRC\\LojaZero_v2\\1 - Aplication\\WebApplication\\WebApplication.csproj",
       "projectName": "WebApplication",
-      "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\1 - Aplication\\WebApplication\\WebApplication.csproj",
-      "packagesPath": "C:\\Users\\Basis Tecnologia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\1 - Aplication\\WebApplication\\obj\\",
+      "projectPath": "D:\\flpin\\SRC\\LojaZero_v2\\1 - Aplication\\WebApplication\\WebApplication.csproj",
+      "packagesPath": "C:\\Users\\flpin\\.nuget\\packages\\",
+      "outputPath": "D:\\flpin\\SRC\\LojaZero_v2\\1 - Aplication\\WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "D:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Basis Tecnologia\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\flpin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://element.basis.com.br/repository/cfc-nuget/": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\Domain\\Domain.csproj"
+            "D:\\flpin\\SRC\\LojaZero_v2\\2 - Domain\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\flpin\\SRC\\LojaZero_v2\\2 - Domain\\Domain\\Domain.csproj"
             },
-            "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj": {
-              "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj"
+            "D:\\flpin\\SRC\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj": {
+              "projectPath": "D:\\flpin\\SRC\\LojaZero_v2\\2 - Domain\\UserDomain\\DomainUser.csproj"
             },
-            "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\3 - Service\\Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\3 - Service\\Service\\Service.csproj"
+            "D:\\flpin\\SRC\\LojaZero_v2\\3 - Service\\Service\\Service.csproj": {
+              "projectPath": "D:\\flpin\\SRC\\LojaZero_v2\\3 - Service\\Service\\Service.csproj"
             },
-            "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.DataUser.csproj": {
-              "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.DataUser.csproj"
+            "D:\\flpin\\SRC\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.DataUser.csproj": {
+              "projectPath": "D:\\flpin\\SRC\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data.User\\Infra.DataUser.csproj"
             },
-            "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data\\Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data\\Infra.Data.csproj"
+            "D:\\flpin\\SRC\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data\\Infra.Data.csproj": {
+              "projectPath": "D:\\flpin\\SRC\\LojaZero_v2\\4 - Infra\\4.1 - Data\\Infra.Data\\Infra.Data.csproj"
             },
-            "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.2 - CrossCutting\\CrossCutting\\CrossCutting.csproj": {
-              "projectPath": "C:\\Users\\Basis Tecnologia\\source\\repos\\LojaZero_v2\\4 - Infra\\4.2 - CrossCutting\\CrossCutting\\CrossCutting.csproj"
+            "D:\\flpin\\SRC\\LojaZero_v2\\4 - Infra\\4.2 - CrossCutting\\CrossCutting\\CrossCutting.csproj": {
+              "projectPath": "D:\\flpin\\SRC\\LojaZero_v2\\4 - Infra\\4.2 - CrossCutting\\CrossCutting\\CrossCutting.csproj"
             }
           }
         }
@@ -9698,6 +9689,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9706,7 +9715,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

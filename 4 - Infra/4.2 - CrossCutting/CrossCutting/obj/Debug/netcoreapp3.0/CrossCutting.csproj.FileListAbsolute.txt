@@ -5,3 +5,11 @@ C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.2 - CrossCutting\
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.2 - CrossCutting\CrossCutting\obj\Debug\netcoreapp3.0\CrossCutting.AssemblyInfo.cs
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.2 - CrossCutting\CrossCutting\obj\Debug\netcoreapp3.0\LojaZero.CrossCutting.dll
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\4 - Infra\4.2 - CrossCutting\CrossCutting\obj\Debug\netcoreapp3.0\LojaZero.CrossCutting.pdb
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.2 - CrossCutting\CrossCutting\bin\Debug\netcoreapp3.0\LojaZero.CrossCutting.deps.json
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.2 - CrossCutting\CrossCutting\bin\Debug\netcoreapp3.0\LojaZero.CrossCutting.dll
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.2 - CrossCutting\CrossCutting\bin\Debug\netcoreapp3.0\LojaZero.CrossCutting.pdb
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.2 - CrossCutting\CrossCutting\obj\Debug\netcoreapp3.0\CrossCutting.csprojAssemblyReference.cache
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.2 - CrossCutting\CrossCutting\obj\Debug\netcoreapp3.0\CrossCutting.AssemblyInfoInputs.cache
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.2 - CrossCutting\CrossCutting\obj\Debug\netcoreapp3.0\CrossCutting.AssemblyInfo.cs
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.2 - CrossCutting\CrossCutting\obj\Debug\netcoreapp3.0\LojaZero.CrossCutting.dll
+D:\flpin\SRC\LojaZero_v2\4 - Infra\4.2 - CrossCutting\CrossCutting\obj\Debug\netcoreapp3.0\LojaZero.CrossCutting.pdb
