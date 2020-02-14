@@ -6,3 +6,11 @@ C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\2 - Domain\UserDomain\obj\Deb
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\2 - Domain\UserDomain\obj\Debug\netcoreapp3.0\DomainUser.AssemblyInfo.cs
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\2 - Domain\UserDomain\obj\Debug\netcoreapp3.0\LojaZero.UserDomain.dll
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\2 - Domain\UserDomain\obj\Debug\netcoreapp3.0\LojaZero.UserDomain.pdb
+D:\flpin\SRC\LojaZero_v2\2 - Domain\UserDomain\bin\Debug\netcoreapp3.0\LojaZero.UserDomain.deps.json
+D:\flpin\SRC\LojaZero_v2\2 - Domain\UserDomain\bin\Debug\netcoreapp3.0\LojaZero.UserDomain.dll
+D:\flpin\SRC\LojaZero_v2\2 - Domain\UserDomain\bin\Debug\netcoreapp3.0\LojaZero.UserDomain.pdb
+D:\flpin\SRC\LojaZero_v2\2 - Domain\UserDomain\obj\Debug\netcoreapp3.0\DomainUser.csprojAssemblyReference.cache
+D:\flpin\SRC\LojaZero_v2\2 - Domain\UserDomain\obj\Debug\netcoreapp3.0\DomainUser.AssemblyInfoInputs.cache
+D:\flpin\SRC\LojaZero_v2\2 - Domain\UserDomain\obj\Debug\netcoreapp3.0\DomainUser.AssemblyInfo.cs
+D:\flpin\SRC\LojaZero_v2\2 - Domain\UserDomain\obj\Debug\netcoreapp3.0\LojaZero.UserDomain.dll
+D:\flpin\SRC\LojaZero_v2\2 - Domain\UserDomain\obj\Debug\netcoreapp3.0\LojaZero.UserDomain.pdb

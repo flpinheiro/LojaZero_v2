@@ -7,14 +7,14 @@ namespace LojaZero.Service.Factory
     public class UserFactory
     {
         public string Email { get; set; }
-        public AppIdentityUser CreateUser(UserType userType)
-        {
-            return (int) userType switch
+        public AppIdentityUser CreateUser(UserType userType) =>
+            (int)userType switch
             {
-                (int) UserType.Person => (AppIdentityUser) new Person() {Email = this.Email, UserName = this.Email},
-                (int) UserType.Company => new Company() {Email = this.Email, UserName = this.Email},
+                (int)UserType.Person =>
+                (new Person { Email = this.Email, UserName = this.Email } as AppIdentityUser),
+                (int)UserType.Company =>
+                (new Company { Email = this.Email, UserName = this.Email } as AppIdentityUser),
                 _ => throw new UserTypeException()
             };
-        }
     }
 }

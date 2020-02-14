@@ -17,3 +17,22 @@ C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\3 - Service\Service\obj\Debug
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\3 - Service\Service\obj\Debug\netcoreapp3.0\Service.csproj.CopyComplete
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\3 - Service\Service\obj\Debug\netcoreapp3.0\LojaZero.Service.dll
 C:\Users\Basis Tecnologia\source\repos\LojaZero_v2\3 - Service\Service\obj\Debug\netcoreapp3.0\LojaZero.Service.pdb
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\bin\Debug\netcoreapp3.0\LojaZero.Service.deps.json
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\bin\Debug\netcoreapp3.0\LojaZero.Service.dll
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\bin\Debug\netcoreapp3.0\LojaZero.Service.pdb
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\bin\Debug\netcoreapp3.0\LojaZero.CrossCutting.dll
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\bin\Debug\netcoreapp3.0\LojaZero.Domain.dll
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.dll
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.User.dll
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\bin\Debug\netcoreapp3.0\LojaZero.UserDomain.dll
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\bin\Debug\netcoreapp3.0\LojaZero.Domain.pdb
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\bin\Debug\netcoreapp3.0\LojaZero.UserDomain.pdb
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.User.pdb
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\bin\Debug\netcoreapp3.0\LojaZero.Infra.Data.pdb
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\bin\Debug\netcoreapp3.0\LojaZero.CrossCutting.pdb
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\obj\Debug\netcoreapp3.0\Service.csprojAssemblyReference.cache
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\obj\Debug\netcoreapp3.0\Service.AssemblyInfoInputs.cache
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\obj\Debug\netcoreapp3.0\Service.AssemblyInfo.cs
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\obj\Debug\netcoreapp3.0\Service.csproj.CopyComplete
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\obj\Debug\netcoreapp3.0\LojaZero.Service.dll
+D:\flpin\SRC\LojaZero_v2\3 - Service\Service\obj\Debug\netcoreapp3.0\LojaZero.Service.pdb

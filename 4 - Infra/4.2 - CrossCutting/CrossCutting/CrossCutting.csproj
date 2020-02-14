@@ -1,9 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <AssemblyName>LojaZero.CrossCutting</AssemblyName>
     <RootNamespace>LojaZero.CrossCutting</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Extensions\" />
+    <Folder Include="Util\" />
+  </ItemGroup>
 
 </Project>
