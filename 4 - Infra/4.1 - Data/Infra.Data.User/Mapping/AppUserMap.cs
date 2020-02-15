@@ -10,14 +10,14 @@ namespace LojaZero.Infra.Data.User.Mapping
         {
             builder
                 .HasMany(a => a.Addresses)
-                .WithOne(a => a.AppIdentityUser)
-                .HasForeignKey(a => a.AppUserId)
+                .WithOne(a => a.User)
+                .HasForeignKey(a => a.UserId)
                 .OnDelete(deleteBehavior: DeleteBehavior.Cascade);
 
             builder
                 .HasMany(a => a.Phones)
-                .WithOne(a => a.AppIdentityUser)
-                .HasForeignKey(a => a.AppUserId)
+                .WithOne(a => a.User)
+                .HasForeignKey(a => a.UserId)
                 .OnDelete(deleteBehavior: DeleteBehavior.Cascade);
         }
     }

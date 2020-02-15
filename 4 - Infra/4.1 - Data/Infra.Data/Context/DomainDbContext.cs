@@ -7,12 +7,20 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LojaZero.Infra.Data.Context
 {
-    public class DomainDbContext :DbContext
+    public class DomainDbContext : DbContext
     {
+        public DomainDbContext()
+        {
+        }
+
+        public DomainDbContext(DbContextOptions<DomainDbContext> options) 
+            : base(options)
+        {
+        }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
-                optionsBuilder.UseMySql("Server=[SERVIDOR];Port=[PORTA];Database=modelo;Uid=[USUARIO];Pwd=[SENHA]");
+                optionsBuilder.UseSqlServer("Server=[SERVIDOR];Port=[PORTA];Database=modelo;Uid=[USUARIO];Pwd=[SENHA]");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

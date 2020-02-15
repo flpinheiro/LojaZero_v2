@@ -6,9 +6,4 @@
     <RootNamespace>LojaZero.CrossCutting</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Extensions\" />
-    <Folder Include="Util\" />
-  </ItemGroup>
-
 </Project>

@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.0.0" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.0.0" />
+    <PackageReference Include="coverlet.collector" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\1 - Aplication\WebApplication\WebApplication.csproj" />
+    <ProjectReference Include="..\..\2 - Domain\Domain\Domain.csproj" />
+    <ProjectReference Include="..\..\2 - Domain\UserDomain\DomainUser.csproj" />
+    <ProjectReference Include="..\..\3 - Service\Service\Service.csproj" />
+    <ProjectReference Include="..\..\4 - Infra\4.1 - Data\Infra.Data.User\Infra.DataUser.csproj" />
+    <ProjectReference Include="..\..\4 - Infra\4.1 - Data\Infra.Data\Infra.Data.csproj" />
+    <ProjectReference Include="..\..\4 - Infra\4.2 - CrossCutting\CrossCutting\CrossCutting.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="1 - Application\" />
+    <Folder Include="2 - Domain\" />
+    <Folder Include="3 - Service\" />
+    <Folder Include="4 - Infra\4.1 - Data\" />
+  </ItemGroup>
+
+</Project>
